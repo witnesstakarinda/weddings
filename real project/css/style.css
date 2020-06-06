@@ -3,8 +3,8 @@
 }
 .gallery img {
     transition: 1s;
-    padding: 3px;
-    width: 350px;
+    padding: 15px;
+    width: 200px;
 }
 .gallery img:hover {
     filter: grayscale(100%);
