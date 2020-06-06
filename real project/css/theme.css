@@ -288,7 +288,7 @@ License URI:
 / 3. Services Section
 ------------------------------------------------------*/
 .service_section{
-    background: url(../images/bg/1.jpg) no-repeat center center / cover;
+    background: url(../images/blk_n_white_bg.jpg) no-repeat center center / cover;
 }
 .icon_box_1{
     display: inline-block;
@@ -310,7 +310,7 @@ License URI:
 .icon_box_1 .front i {
     font-size: 64px;
     line-height: 1;
-    color: #160303;
+    color: #000000;
     display: block;
     margin-bottom: 17px;
     transition: all ease 400ms;
@@ -323,7 +323,7 @@ License URI:
     line-height: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #0e0c0cf3;
+    color: #aaaaaa;
     margin: 0;
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
@@ -387,15 +387,15 @@ License URI:
     transform: rotateX(180deg);
 }
 .back {
-    background:#d16d2be7;
+    background: rgba(0, 0, 0, 0);
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
     position: relative;
-    padding: 48px 45px 45px;
-    border: 2px solid#d16d2be7;
+    padding: none;
+    border: none;
     width: 100%;
 }
 .icon_box_1:hover .front, .icon_box_1.hover .front {
