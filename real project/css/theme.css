@@ -102,14 +102,14 @@ License URI:
 }
 .mainmenu ul > li.active > a,
 .mainmenu ul li a:hover{
-    color: #fff;
+    color: rgb(5, 5, 5);
 }
 .mainmenu ul > li.active > a:after,
 .mainmenu ul li a:hover:after{
     width: 100%;
 }
 .mainmenu ul ul.sub-menu {
-    background: rgb(204, 56, 189);
+    background: rgb(223, 133, 15);
     width: 200px;
     z-index: 9;
     text-align: center;
@@ -139,7 +139,7 @@ License URI:
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-bottom: 5px solid rgb(194, 28, 125);
+    border-bottom: 5px solid rgb(186, 85, 17);
     z-index: 10;
 }
 .mainmenu ul li:hover ul.sub-menu {
@@ -177,29 +177,29 @@ License URI:
 }
 .navigator a.active,
 .navigator a:hover {
-    color: #e62b4a;
+    color: #d16d2bfa;
 }
 .black_color{
     border-color: #e5e5e5;
 }
 .black_color .mainmenu ul li a{
-    color: #ee1212;
+    color:#d16d2be7;
 }
 .black_color .mainmenu ul li a:hover{
-    color: #f02727;
+    color: #d16d2bee;
 }
 .black_color .mainmenu ul li a:after{
-    background: #bb0b0b7e;
+    background: #d16d2be7;
 }
 .black_color .navigator a{
-    color: #d8050595;
+    color: #d16d2bf3;
 }
 .black_color .navigator a.active,
 .black_color .navigator a:hover{
-    color: #e62b4a;
+    color:#d16d2be7;
 }
 .fixedHeader {
-    background: rgba(196, 22, 22, 0.68);
+    background: #d16d2be8;
     left: 0;
     position: fixed;
     right: 0;
@@ -238,8 +238,8 @@ License URI:
     width: 74px;
     height: 72px;
     border-radius: 0;
-    background: rgba(231, 18, 18, 0.35);
-    color: rgb(157, 16, 16);
+    background: rgba(231, 128, 18, 0.687);
+    color: rgb(208, 105, 21);
     text-align: center;
     padding: 25px 0;
     transition: all ease 400ms;
@@ -250,14 +250,14 @@ License URI:
     content:"\f105";
     font-size: 24px;
     line-height: .8;
-    color: #b11313;
+    color: #b15213e8;
     font-family: "fontAwesome";
 }
 .rev_slider .tparrows.tp-leftarrow:before{
     content:"\f104";
     font-size: 24px;
     line-height: .8;
-    color: #e21111ba;
+    color: #e26f11c7;
     font-family: "fontAwesome";
 }
 .rev_slider .tp-leftarrow.me_arrows:hover,
@@ -288,7 +288,7 @@ License URI:
 / 3. Services Section
 ------------------------------------------------------*/
 .service_section{
-    background: url(../images/bg/1.jpg) no-repeat center center / cover;
+    background: url(../images/blk_n_white_bg.jpg) no-repeat center center / cover;
 }
 .icon_box_1{
     display: inline-block;
@@ -310,7 +310,7 @@ License URI:
 .icon_box_1 .front i {
     font-size: 64px;
     line-height: 1;
-    color: #aaaaaa;
+    color: #000000;
     display: block;
     margin-bottom: 17px;
     transition: all ease 400ms;
@@ -387,15 +387,15 @@ License URI:
     transform: rotateX(180deg);
 }
 .back {
-    background: #e62b4a;
+    background: rgba(0, 0, 0, 0);
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
     position: relative;
-    padding: 48px 45px 45px;
-    border: 2px solid #e62b4a;
+    padding: none;
+    border: none;
     width: 100%;
 }
 .icon_box_1:hover .front, .icon_box_1.hover .front {
@@ -454,7 +454,7 @@ License URI:
     top: -40px;
     left: 40px;
     content: '';
-    border: 10px solid #e62b4a;
+    border: 10px solid#d16d2be7;
     width: 470px;
     height: 458px;
 }
@@ -506,7 +506,7 @@ License URI:
     height: 115px;
     border-radius: 0;
     position: relative;
-    background: #e62b4a;
+    background: #d16d2be7;
     color: #fff;
     font-size: 30px;
     line-height: .8;
@@ -594,7 +594,7 @@ License URI:
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(230, 43, 74, .8);
+    background: #d16d2be7;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -661,7 +661,7 @@ License URI:
     padding: 0 0 330px
 }
 .BR{
-    border-right: 1px solid #ba0f0f;
+    border-right: 1px solid#d16d2be7;
 }
 .singlefunfact{
     position: relative;
@@ -716,7 +716,7 @@ License URI:
 .abci_content h2{
     font-size: 50px;
     letter-spacing: 2px;
-    color: #900808ad;
+    color:#d16d2be7;
     line-height: 63px;
     text-transform: uppercase;
     margin: 0 0 43px;
@@ -784,7 +784,7 @@ License URI:
     position: absolute;
     bottom: 0;
     right: 0;
-    background: rgba(230, 43, 74, .7);
+    background: #d16d2be7;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -1103,7 +1103,7 @@ License URI:
 .testimonial_content .testi_icon{
     width: 115px;
     height: 115px;
-    background: #e62b4a;
+    background: #e6762be0;
     text-align: center;
     display: inline-block;
     font-size: 64px;
@@ -1121,7 +1121,7 @@ License URI:
     margin: 0 0 44px;
 }
 .testimonial_content h2 span{
-    color: #e62b4a;
+    color: #ff6905;
 }
 .testimonial_content p{
     font-size: 20px;
@@ -1224,7 +1224,7 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready{
-    background: url(../images/bg/4.jpg) no-repeat center center / cover;
+    background: url(../images/bg/10.jpg) no-repeat center center / cover;
 }
 .ready .sec_title{
     margin: 0;
@@ -1295,7 +1295,8 @@ License URI:
 }
 .footer_1 .copyright a:hover,
 .footer_1 .contact_widgets p a:hover{
-    color: #e62b4a;
+    color: #e6762be0;
+    
 }
 .footer_1 .contact_widgets p:first-of-type{
     margin-bottom: 32px;
@@ -1359,7 +1360,7 @@ License URI:
     bottom: 0;
     margin: auto 0;
     content: '';
-    background: #e62b4a;
+    background: #e6762be0;
     visibility: hidden;
     opacity: 0;
     z-index: 3;
@@ -1370,7 +1371,7 @@ License URI:
 .icon_box_2 h3{
     font-size: 20px;
     letter-spacing: .80px;
-    color: rgba(177, 14, 14, 0.836);
+    color: #e6762be0;
     line-height: 32px;
     text-transform: uppercase;
     margin: 0 0 35px;
@@ -1411,7 +1412,7 @@ License URI:
     margin: 0;
 }
 .icon_box_2 a:hover{
-    color: #e62b4a;
+    color:#e6762be0;
 }
 .icon_box_2:hover{
     -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
@@ -1544,7 +1545,7 @@ License URI:
     right: 0;
     bottom: 0;
     content: '“';
-    background: #e62b4a;
+    background: #e6762be0;
     font-size: 30px;
     line-height: .8;
     padding: 11px 0;
@@ -1675,7 +1676,7 @@ License URI:
 }
 .wh_choose ul li i{
     font-size: 14px;
-    color: #e62b4a;
+    color:#e6762be0;
     line-height: 32px;
     margin-right: 15px;
 }
@@ -1717,7 +1718,7 @@ License URI:
     top: 0;
     left: 0;
     margin: auto;
-    background: rgba(230, 43, 74, .7);
+    background: #e6762be0;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -1784,7 +1785,7 @@ License URI:
     font-size: 24px;
     color: #fff;
     letter-spacing: 0.96px;
-    background: #e62b4a;
+    background: #e6762be0;
     padding: 61px 0;
 }
 .btn_link a:hover{
@@ -1795,7 +1796,7 @@ License URI:
     background: #000;
 }
 .btn_link.bg_black a:hover{
-    background: #e62b4a;
+    background:#e6762be0;
 }
 
 /*----------------------------------------------------
@@ -1823,7 +1824,7 @@ License URI:
     display: inline-block;
 }
 .banner_content h4 a:hover{
-    color: rgba(194, 28, 28, 0.762);
+    color: #e6762be0;
 }
 .banner_content h2 {
     font-size: 70px;
@@ -1842,7 +1843,7 @@ License URI:
     position: absolute;
     right: 60px;
     top: 60px;
-    border: 10px solid #e62b4a;
+    border: 10px solid #e6762be0;
     height: 464px;
     width: 530px;
     content: '';
@@ -1935,7 +1936,7 @@ License URI:
 }
 .serviceArea h2{
     text-transform: uppercase;
-    color: #ac0f0fb4;
+    color: #e6762be0;
     line-height: .8;
     font-size: 50px;
     letter-spacing: 2px;
@@ -1948,7 +1949,7 @@ License URI:
     line-height: .8;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    color: #d50e0ecd;
+    color: #e6762be0;
     font-size: 30px;
     margin-bottom: 50px;
 }
@@ -1969,7 +1970,7 @@ License URI:
     font-size: 16px;
 }
 .serviceArea ul li i{
-    color: #9f2136;
+    color: #e6762be0;
     margin-right: 10px;
     line-height: 36px;
 }
@@ -2166,7 +2167,7 @@ License URI:
 / 27. Popup Menu
 ------------------------------------------------------------------------------*/
 .popup {
-    background: rgba(171, 5, 5, 0.823);
+    background:  #d16d2b8e;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: -moz-box;
@@ -2224,7 +2225,7 @@ License URI:
 .close-popup:before{
     width: 15px;
     height: 1px;
-    background: rgba(174, 10, 10, 0.455);
+    background:  #d16d2b90;
     position: absolute;
     right: 17.5px;
     top: 24px;
@@ -2243,7 +2244,7 @@ License URI:
 }
 .close-popup:hover:after,
 .close-popup:hover:before{
-    background: #e62b4a;
+    background:  #d16d2bfa;
 }
 .logo2{
     z-index: 99;
@@ -2592,7 +2593,7 @@ License URI:
 / 29. Bact To Top
 ------------------------------------------------------*/
 .showit {
-    background: #e62b4a;
+    background: #e6762be1;
     bottom: 60px;
     color: #ffffff;
     font-size: 20px;
@@ -2622,7 +2623,7 @@ License URI:
     padding: 25px 20px 20px;
     z-index: 1000;
     background: #fff;
-    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0 3px rgba(49, 47, 47, 0.1);
     -webkit-transition: left 0.3s ease-in-out;
     -moz-transition: left 0.3s ease-in-out;
     -ms-transition: left 0.3s ease-in-out;
@@ -2641,7 +2642,7 @@ License URI:
     padding: 11px 0;
     top: 20px;
     right: -40px;
-    box-shadow: -1px 0 2px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: -1px 0 2px rgba(15, 14, 14, 0.1) inset;
     text-align: center;
 }
 .color_settings .color_preset button {
